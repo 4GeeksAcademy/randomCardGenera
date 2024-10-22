@@ -1,1 +1,32 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+.first {
+  height: 750px;
+  background-color: green;
+}
+
+.topBox {
+  font-size: 70px;
+  height: 250px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.centerBox {
+  font-size: 70px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-self: auto;
+}
+
+.bottomBox {
+  font-size: 70px;
+  height: 200px;
+  display: flex;
+  justify-content: end;
+}
+
+#newCard {
+  height: 50px;
+  display: flex;
+  justify-content: end;
+}
